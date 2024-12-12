@@ -36,8 +36,8 @@
     <link href="css/style.css" rel="stylesheet">
 </head>
 
-<body>
-    <div class="container-xxl bg-white p-0">
+<body style=" background-color: #fdf4e6;">
+    <div style=" background-color: #fdf4e6;">
         <!-- Spinner Start -->
         <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
             <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
@@ -61,6 +61,7 @@
                         <a href="index.html" class="nav-item nav-link active">Home</a>
                         <a href="#about" class="nav-item nav-link">About</a>
                         <a href="#contact" class="nav-item nav-link">Contact</a>
+                        <a href="#feedback" class="nav-item nav-link">Feedback</a>
                     </div>
                 </div>
             </nav>
@@ -115,21 +116,21 @@
             </div>
         </div>
         <!-- Header End -->
-        <div style="border-radius:25px;margin-left:5px;margin-right:5px;margin-top: 10px; background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,54,54,1) 0%, rgba(255,141,59,1) 100%);">
+        <div style="animation: slideUp 1s ease-out forwards;border-radius:25px;margin-left:5px;margin-right:5px;margin-top: 10px; background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,54,54,1) 0%, rgba(255,141,59,1) 100%);">
         <div class="card2">
             <h1 style="text-align: center;color: #ffffff;font-family: Eagle Lake, sans-serif;">Sri Plaza</h1>
         </div>
         </div>
-        <h1 style="text-align: center; font-size:18px;padding-top: 20px;padding-bottom:25px;color: #d43838;font-family:DM Serif Text;">The Perfect Stay For You & Your Family</h1>
+        <h1 style="animation: slideUp 1s ease-out forwards;text-align: center; font-size:18px;padding-top: 20px;padding-bottom:25px;color: #d43838;font-family:DM Serif Text;">The Perfect Stay For You & Your Family</h1>
 
-        <div id="contact" style="text-align: center;padding: 20px;">
+        <div id="contact" style="animation: slideUp 1s ease-out forwards;text-align: center;padding: 20px;">
             <a style="position: relative;" class="bttn1" href="tel:08246816722"><i class="fa fa-phone"></i><span style="position: absolute;bottom: -27px;; left: 50%; transform: translateX(-50%); color: #161616;font-size:13px;font-family:Lexend">CALL</span></a>
             <a style="position: relative;" class="bttn2" href="https://wa.me/7356098298"><i class="fa fa-whatsapp"></i><span style="position: absolute;bottom: -27px;; left: 50%; transform: translateX(-50%); color: #161616;font-size:13px;font-family:Lexend">WHATSAPP</span></a>
             <a style="position: relative;" class="bttn3" href="https://maps.app.goo.gl/ZKRycfxq1mbNYtLe9"><i class="fa fa-location-arrow"></i><span style="position: absolute;bottom: -27px;; left: 50%; transform: translateX(-50%); color: #161616;font-size:13px;font-family:Lexend">LOCATION</span></a>
             <a style="position: relative;" class="bttn4" href="mailto:sriplaza.77@gmail.com"><i class="fa fa-envelope"></i><span style="position: absolute;bottom: -27px;; left: 50%; transform: translateX(-50%); color: #161616;font-size:13px;font-family:Lexend">MAIL</span></a>
         </div>
 
-        <div class="contact_details" id="top_contact_btn2">
+        <div style="animation: slideUp 1s ease-out forwards;" class="contact_details" id="top_contact_btn2">
             <div class="contact_d" onclick="location.href='tel:08246816722'">
               <i class="fa fa-phone" style="
               position: relative;
@@ -148,6 +149,24 @@
               background: linear-gradient(45deg, #009688, #68f16d);"></i>
               <p>08246816722</p>
             </div>
+            <div class="contact_d" onclick="location.href='tel:8197422346'">
+                <i class="fa fa-phone" style="
+                position: relative;
+                transition: 0.4s;
+                display: inline-block;
+                font: normal normal normal 14px/1 FontAwesome;
+                text-rendering: auto;
+                -webkit-font-smoothing: antialiased;
+                color: white;
+                height: 42px;
+                font-size: 21px;
+                padding: 10px;
+                text-align: center;
+                width:43px;
+                border-radius: 30% 70% 74% 26% / 51% 49% 51% 49%;
+                background: linear-gradient(45deg, #009688, #68f16d);"></i>
+                <p>8197422346</p>
+              </div>
             <div class="contact_d" onclick="location.href='tel:7356098298'">
               <i class="fa fa-phone" style="
               position: relative;
@@ -202,40 +221,59 @@
               background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,54,54,1) 0%, rgba(255,141,59,1) 100%);"></i>
               <p>Sri Plaza, Bypass Road Nearest Arasubhavan, Hunsur Mysore 571105</p>
             </div>
+
+            <div>
+
+                <!-- Share buttons with inline styles and Font Awesome icons -->
+                <a href="https://www.facebook.com/sharer/sharer.php?u=https://example.com" target="_blank" style="margin-top: 10px; padding: 12px 25px; background-color: #3b5998; color: white; text-decoration: none; font-size: 16px; display: inline-flex; align-items: center; border-radius: 25px; margin-right: 15px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); transition: background-color 0.3s, transform 0.3s;">
+                  <i class="fab fa-facebook-f" style="font-size: 20px; margin-right: 10px;"></i>Share on Facebook
+                </a>
+              
+                <a href="https://twitter.com/intent/tweet?url=https://example.com&text=Check%20this%20out!" target="_blank" style="margin-top: 10px; padding: 12px 25px; background-color: #1DA1F2; color: white; text-decoration: none; font-size: 16px; display: inline-flex; align-items: center; border-radius: 25px; margin-right: 15px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); transition: background-color 0.3s, transform 0.3s;">
+                  <i class="fab fa-twitter" style="font-size: 20px; margin-right: 10px;"></i>Share on Twitter
+                </a>
+
+                <a href="https://drive.google.com/file/d/1diT1pAQxqA18XcKkYmY8lZFoq6THygYj/view" target="_blank" style="margin-top: 10px; padding: 12px 25px; background-color: #0077B5; color: white; text-decoration: none; font-size: 16px; display: inline-flex; align-items: center; border-radius: 25px; margin-right: 15px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); transition: background-color 0.3s, transform 0.3s;">
+                    <i class="fas fa-download" style="font-size: 20px; margin-right: 10px;"></i>Download Brochure
+                  </a>
+              
+            </div>
+
         </div>
 
-        <div style="border-radius:25px;margin-left:5px;margin-right:5px;padding-top: 10px;padding-bottom: 10px; background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,54,54,1) 0%, rgba(255,141,59,1) 100%);">
+        <div style="animation: slideUp 1s ease-out forwards;border-radius:25px;margin-left:5px;margin-right:5px;padding-top: 10px;padding-bottom: 10px; background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,54,54,1) 0%, rgba(255,141,59,1) 100%);">
             <h1 style="text-align: center; color: #ffffff;font-family:DM Serif Text; font-size: 23px;">Scan QR Code For Brochure</h1>
         </div>
-        <div style="text-align: center; padding-top: 10px; padding-bottom: 10px;">
+        <div style="animation: slideUp 1s ease-out forwards;text-align: center; padding-top: 10px; padding-bottom: 10px;">
             <img src="img/Qr Code.png" width="200" height="200">
             <h1 style="color: black; font-size:18px;">SRI PLAZA</h1>
         </div>
 
-        <div id="about" style="border-radius:25px;margin-left:5px;margin-right:5px;padding-top: 10px;padding-bottom: 10px; background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,54,54,1) 0%, rgba(255,141,59,1) 100%);">
+        <div id="about" style="animation: slideUp 1s ease-out forwards; border-radius:25px;margin-left:5px;margin-right:5px;padding-top: 10px;padding-bottom: 10px; background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,54,54,1) 0%, rgba(255,141,59,1) 100%);">
             <h1 style="text-align: center; color: #ffffff;font-family:DM Serif Text; font-size: 23px;">About Us</h1>
         </div>
 
-        <div style="text-align: center;padding-top:20px;padding-bottom:10px;padding-left:20px;padding-right:20px;">
+        <div style="animation: slideUp 1s ease-out forwards;text-align: center;padding-top:20px;padding-bottom:10px;padding-left:20px;padding-right:20px;">
             <p style="font-size: 18px;">Sri Plaza offers a variety of comfortable and affordable accommodation options, including A/C Deluxe, Non-A/C Premium, and standard Non-A/C rooms. The hotel is equipped with modern facilities to cater to the needs of both leisure and business travelers.</p>
         </div>
 
-        <section class="facilities-section3">
+        <section style="animation: slideUp 1s ease-out forwards;" class="facilities-section3">
             <div class="container3">
               <h2 class="title3">Facilities Provided</h2>
               <ul class="facilities-list3">
-                <li>🛎️ 24-hour room service and hot water availability</li>
-                <li>🌐 Internet and Wi-Fi access</li>
-                <li>🧺 Laundry service</li>
-                <li>🩺 Doctor-on-call for medical emergencies</li>
-                <li>🚗 Car parking for guest convenience</li>
-                <li>🚕 Taxi services</li>
-                <li>🎉 Spaces for private and social events, including a party hall</li>
+                <li>💰 Govt. Taxes Applicabale</li>
+                <li>🛎️ 24-Hour Room Service & Hot Water Availability</li>
+                <li>🌐 Internet & Wi-Fi Access</li>
+                <li>🧺 Laundry Service</li>
+                <li>🩺 Doctor-on-call For Medical Emergencies</li>
+                <li>🚗 Car Parking For Guest Convenience</li>
+                <li>🚕 Taxi Services</li>
+                <li>🎉 Spaces For Private And Social Events, Including A Party Hall</li>
               </ul>
             </div>
           </section>
 
-          <div style="font-family: Arial, sans-serif; margin: 20px; background-color: #ffffff;">
+        <div style="animation: slideUp 1s ease-out forwards;font-family: Arial, sans-serif; margin: 20px; background-color: #fdf4e6;">
             <h1 style="text-align: center; color: #333;">Room Rate Details</h1>
             <table style="width: 100%; border-collapse: separate; border-spacing: 0; margin: 20px 0; background-color: #fff; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); border-radius: 10px; overflow: hidden;">
               <thead>
@@ -268,14 +306,14 @@
                 </tr>
               </tbody>
             </table>
-            <h1 style="padding-bottom:15px; text-align: center; color: #d43838;font-size: 20px;" >CHECK-OUT TIME 11:00 AM</h1>
+            <h1 style="padding-bottom:15px; text-align: center; color: #bc2b03;font-size: 20px;" >CHECK-OUT TIME 11:00 AM</h1>
         </div>
 
-        <div style="border-radius:25px;margin-left:5px;margin-right:5px; margin-top:30px; padding-top: 10px;padding-bottom: 10px; background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,54,54,1) 0%, rgba(255,141,59,1) 100%);">
+        <div style="animation: slideUp 1s ease-out forwards; border-radius:25px;margin-left:5px;margin-right:5px; margin-top:30px; padding-top: 10px;padding-bottom: 10px; background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,54,54,1) 0%, rgba(255,141,59,1) 100%);">
             <h1 style="text-align: center; color: #ffffff;font-family:DM Serif Text; font-size: 23px;">Gallery</h1>
         </div>
 
-        <div class="gallery-container">
+        <div style=" background-color: #fdf4e6;animation: slideUp 1s ease-out forwards;" class="gallery-container">
             <h2 class="gallery-title">Explore Our Gallery</h2>
             <div class="gallery">
               <div class="gallery-item">
@@ -308,15 +346,46 @@
             </div>
           </div>
 
-          <div style="border-radius:25px;margin-left:5px;margin-right:5px;padding-top: 10px;padding-bottom: 10px; background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,54,54,1) 0%, rgba(255,141,59,1) 100%);">
+          <div style="animation: slideUp 1s ease-out forwards; border-radius:25px;margin-left:5px;margin-right:5px;padding-top: 10px;padding-bottom: 10px; background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,54,54,1) 0%, rgba(255,141,59,1) 100%);">
             <h1 style="text-align: center; color: #ffffff;font-family:DM Serif Text; font-size: 23px;">Location</h1>
         </div>
 
-        <div class="map-container">
+        <div style=" background-color: #fdf4e6;animation: slideUp 1s ease-out forwards;" class="map-container">
             <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3898.105740006258!2d76.2984107!3d12.3086655!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba585000392726b%3A0xbadad953c5c8541e!2sSri%20plaza%20hotel!5e0!3m2!1sen!2sin!4v1733689906962!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
 
-        <h1 style="font-size: 15px;text-align: center;padding-top: 10px;">Sri Plaza, Bypass Road Nearest Arasubhavan, Hunsur Mysore 571105</h1>
+        <h1 style="font-size: 15px;text-align: center;padding-top: 10px; padding-bottom: 10px;">Sri Plaza, Bypass Road Nearest Arasubhavan, Hunsur Mysore 571105</h1>
+        
+        <section id="nearby-destinations" style="padding: 40px 20px; background-color: #fdf4e6; text-align: center;animation: slideUp 1s ease-out forwards;">
+            <h2 style="font-size: 2.5em; color: #333; margin-bottom: 30px;">Nearby Tourist Destinations</h2>
+            
+            <div style="display: flex; justify-content: space-around; flex-wrap: wrap; gap: 20px;">
+              <div style="background-color: white; padding: 20px; width: 250px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); transition: transform 0.3s, box-shadow 0.3s;">
+                <img src="img/tr1.jpg" alt="Chunchanakatte Falls" style="width: 100%; border-radius: 8px; margin-bottom: 15px;">
+                <h3 style="color: #007BFF; font-size: 1.5em; margin-bottom: 10px;">Chunchanakatte Falls</h3>
+                <p style="color: #555; font-size: 1em; margin-bottom: 15px;">Distance: 25 km</p>
+              </div>
+              
+              <div style="background-color: white; padding: 20px; width: 250px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); transition: transform 0.3s, box-shadow 0.3s;">
+                <img src="img/tr2.jpg" alt="Nagarhole National Park" style="width: 100%; border-radius: 8px; margin-bottom: 15px;">
+                <h3 style="color: #007BFF; font-size: 1.5em; margin-bottom: 10px;">Nagarhole National Park</h3>
+                <p style="color: #555; font-size: 1em; margin-bottom: 15px;">Distance: 21 km</p>
+              </div>
+          
+              <div style="background-color: white; padding: 20px; width: 250px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); transition: transform 0.3s, box-shadow 0.3s;">
+                <img src="img/tr3.jpg" alt="Sagarakatte Backwaters" style="width: 100%; border-radius: 8px; margin-bottom: 15px;">
+                <h3 style="color: #007BFF; font-size: 1.5em; margin-bottom: 10px;">Sagarakatte Backwaters</h3>
+                <p style="color: #555; font-size: 1em; margin-bottom: 15px;">Distance: 35 km</p>
+              </div>
+          
+              <div style="background-color: white; padding: 20px; width: 250px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); transition: transform 0.3s, box-shadow 0.3s;">
+                <img src="img/tr4.jpg" alt="Kenchanna Kere Lake" style="width: 100%; border-radius: 8px; margin-bottom: 15px;">
+                <h3 style="color: #007BFF; font-size: 1.5em; margin-bottom: 10px;">Kenchanna Kere Lake</h3>
+                <p style="color: #555; font-size: 1em; margin-bottom: 15px;">Distance: 7 km</p>
+              </div>
+            </div>
+          </section>
+        
         <!-- Category Start 
         <div class="container-xxl py-5">
             <div class="container">
@@ -986,8 +1055,37 @@
                 </div>
             </div>
         </div>
+
         <!-- Testimonial End -->
-        
+
+
+
+        <div id="feedback" style="font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #fdf4e6;animation: slideUp 1s ease-out forwards;">
+            <header style="background-color: #ff4500; color: white; padding: 20px 10px; text-align: center;">
+                <h1 style="margin: 0;color: white;">Feedback Forum</h1>
+                <p>We value your input! Please share your thoughts to help us improve.</p>
+            </header>
+            <main style="padding: 20px;">
+                <form action="mailto:your-email@example.com" method="POST" enctype="text/plain" style="background: white; padding: 20px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); max-width: 600px; margin: 20px auto;">
+                    
+                    <div style="margin-bottom: 15px;">
+                        <label for="name" style="display: block; font-weight: bold; margin-bottom: 5px; color: #ff4500;">Name (optional):</label>
+                        <input type="text" id="name" name="name" placeholder="Your name" style="width: 100%; padding: 10px; border: 1px solid #ff7f50; border-radius: 5px;">
+                    </div>
+                    <div style="margin-bottom: 15px;">
+                        <label for="email" style="display: block; font-weight: bold; margin-bottom: 5px; color: #ff4500;">Email (optional):</label>
+                        <input type="email" id="email" name="email" placeholder="Your email" style="width: 100%; padding: 10px; border: 1px solid #ff7f50; border-radius: 5px;">
+                    </div>
+                    <div style="margin-bottom: 15px;">
+                        <label for="comments" style="display: block; font-weight: bold; margin-bottom: 5px; color: #ff4500;">Comments or Suggestions:</label>
+                        <textarea id="comments" name="comments" rows="5" placeholder="Share your feedback here..." required style="width: 100%; padding: 10px; border: 1px solid #ff7f50; border-radius: 5px; resize: vertical;"></textarea>
+                    </div>
+                    <div style="text-align: center;">
+                        <button type="submit" style="background-color: #ff4500; color: white; border: none; padding: 10px 15px; border-radius: 5px; cursor: pointer;">Submit Feedback</button>
+                    </div>
+                </form>
+            </main>
+        </div>
 
         <!-- Footer Start -->
         <div class="container-fluid bg-dark text-white-50 footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
@@ -1036,14 +1134,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6">
-                        <h5 class="text-white mb-4">Newsletter</h5>
-                        <p>Sri Plaza</p>
-                        <div class="position-relative mx-auto" style="max-width: 400px;">
-                            <input class="form-control bg-transparent w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
-                            <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
-                        </div>
-                    </div>
+                    
                 </div>
             </div>
             <div class="container">
